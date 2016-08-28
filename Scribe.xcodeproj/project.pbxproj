@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		814F2AFE1D42DFE70018361B /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F2AFD1D42DFE70018361B /* RecordViewController.swift */; };
+		814F2B001D42EC910018361B /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F2AFF1D42EC910018361B /* RecordingsViewController.swift */; };
 		F7C546001D42B79500A56A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C545FF1D42B79500A56A18 /* AppDelegate.swift */; };
-		F7C546021D42B79500A56A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C546011D42B79500A56A18 /* ViewController.swift */; };
 		F7C546051D42B79500A56A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C546031D42B79500A56A18 /* Main.storyboard */; };
 		F7C546071D42B79500A56A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C546061D42B79500A56A18 /* Assets.xcassets */; };
 		F7C5460A1D42B79500A56A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C546081D42B79500A56A18 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		814F2AFD1D42DFE70018361B /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		814F2AFF1D42EC910018361B /* RecordingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
 		F7C545FC1D42B79400A56A18 /* Scribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C545FF1D42B79500A56A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7C546011D42B79500A56A18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7C546041D42B79500A56A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7C546061D42B79500A56A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7C546091D42B79500A56A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				F7C545FF1D42B79500A56A18 /* AppDelegate.swift */,
-				F7C546011D42B79500A56A18 /* ViewController.swift */,
 				F7C546031D42B79500A56A18 /* Main.storyboard */,
 				F7C546061D42B79500A56A18 /* Assets.xcassets */,
 				F7C546081D42B79500A56A18 /* LaunchScreen.storyboard */,
 				F7C5460B1D42B79500A56A18 /* Info.plist */,
+				814F2AFD1D42DFE70018361B /* RecordViewController.swift */,
+				814F2AFF1D42EC910018361B /* RecordingsViewController.swift */,
 			);
 			path = Scribe;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7C546021D42B79500A56A18 /* ViewController.swift in Sources */,
 				F7C546001D42B79500A56A18 /* AppDelegate.swift in Sources */,
+				814F2AFE1D42DFE70018361B /* RecordViewController.swift in Sources */,
+				814F2B001D42EC910018361B /* RecordingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				F7C546261D42B79500A56A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7C546271D42B79500A56A18 /* Build configuration list for PBXNativeTarget "ScribeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				F7C546291D42B79500A56A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7C5462A1D42B79500A56A18 /* Build configuration list for PBXNativeTarget "ScribeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				F7C5462C1D42B79500A56A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
